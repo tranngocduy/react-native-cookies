@@ -18,7 +18,13 @@ Cookie manager for react native.
 
 If automatic linking does not work, you can manually link this library by following the instructions below:
 
-##### iOS
+##### Use file pod iOS
+in your productname/ios/PodFile
+pod 'react-native-cookies', :path => '../node_modules/react-native-cookies/ios'
+
+ => pod install
+
+##### Manual iOS
 
 1. Open your project in Xcode, right click on `Libraries` and click `Add
    Files to "Your Project Name"` Look under `node_modules/react-native-cookies/ios` and add `RNCookieManagerIOS.xcodeproj`.
